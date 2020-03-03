@@ -7,8 +7,6 @@ from nltk.stem import WordNetLemmatizer
 
 from nltk.tokenize import word_tokenize
 
-import pandas as pd
-
 class  naturalCleanTxt (BaseEstimator,TransformerMixin):
     """Class for Normalise Txt cols from DataFrame, with nltk lemmatizer & stopwords"""
 
